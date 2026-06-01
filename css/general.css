@@ -107,10 +107,238 @@ nav a:hover {
     text-decoration: none;
 }
 
-/*Bloque 6: Estructura principal */
+/*  ==============================
+    Bloque 6: Estructura principal
+    main que contiene lo principal
+    =============================
+*/
 
 main {
     width: 90%;
     max-width: 1100px;
     margin: 25px auto;
+}
+
+section,
+article,
+aside {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 18px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+/*  ==============================
+    Bloque 7: Aside
+    aside contiende informacion complementario
+    =============================
+*/
+
+aside {
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px auto;
+    background-color: #fff8e6;
+}
+ aside i {
+    margin-right: 8px;
+    font-size: 20px;
+    color: #1b7505;
+}
+
+/*  ==============================
+    Bloque 8: Imagenes y Multimedia
+    Contenido de multimedia e imagenes
+    =============================
+*/
+
+img,
+video,
+iframe {
+    max-width: 100%px;
+    border-radius: 8px;
+}
+
+figure{
+    text-align: center;
+    margin: 0;
+}
+
+figcaption{
+    font-size: 14px;
+    color: #555555;
+    margin-top: 8px;
+}
+
+/*  ==============================
+    Bloque 9: Listas
+    Contenido de listas ul y ol listas ordenadas y desordenadas
+    =============================
+*/
+
+ul,
+ol {
+    padding-left: 28px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/*  ==============================
+    Bloque 10: Tablas
+    Contenido de tablas
+    =============================
+*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color:  white;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0d1910;
+}
+
+th {
+    background-color: #1b7505;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/*  ==============================
+    Bloque 11: Formularios
+    Contenido de formularios
+    =============================
+*/
+
+form {
+    margin-top: 12px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select,
+textarea{
+    width: 100%;
+    padding: 9px;
+    margin-top: 5px;
+    border: 1px solid #a8a8a7;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+input[type="checkbox"],
+input[tyoe="radio"] {
+    width: auto;
+    margin-right: 6px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #1b7505;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0d1910;
+}
+
+/*  ==============================
+    Bloque 12: Atributos y estados de formulario
+    Contenido de atributos y estados
+    focus y required
+    =============================
+*/
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #dba112;
+    border-color: #1b7505;
+}
+
+input:required,
+select:required,
+textarea:required {
+    border-left: 5px solid #dba112;
+}
+
+/*  ==============================
+    Bloque 13: Datails. summary, progres y meter
+    Contenido de detalles
+    Se usan para contenido depslegable y barras de prgreso
+    =============================
+*/
+
+details {
+    background-color: #f4f6f8;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #dddddd;
+    margin-bottom: 10px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #1b7505;
+}
+
+progress,
+meter {
+    width: 260px;
+    height: 20px;
+}
+
+/*  ==============================
+    Bloque 14: Texto tecnico
+    Texto de code, pre, kbd
+    =============================
+*/
+
+code {
+    background-color: #eeeeee;
+    color: #b00020;
+    padding: 2px 5px;
+    border-radius: 8px;
+}
+
+pre {
+    background-color: #0d1910;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+kbd {
+    background-color: #222222;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 4px;
 }
