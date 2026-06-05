@@ -25,20 +25,20 @@
 
     <!-- Menú de navegación principal -->
     <nav>
-        <a href="index.html">
+        <a class="class_btn_nav" href="index.html">
             <i class="fa-solid fa-house"></i>
             Inicio
         </a>
 
-        <a href="#objetivo">Objetivo</a>
+        <a class="class_btn_nav1" href="#objetivo">Objetivo</a>
 
-        <a href="#intereses">Intereses</a>
+        <a class="class_btn_nav2" href="#intereses">Intereses</a>
 
-        <a href="#multimedia">Multimedia</a>
+        <a class="class_btn_nav3" href="#multimedia">Multimedia</a>
 
-        <a href="pages/buscar.html">Buscar</a>
+        <a class="class_btn_nav4" href="pages/buscar.html">Buscar</a>
 
-        <a href="pages/cto/contacto.html">
+        <a class="class_btn_nav5" href="pages/cto/contacto.html">
             <i class="fa-solid fa-envelope"></i>
             Contacto
         </a>
@@ -110,7 +110,7 @@
         </section>
 
         <!-- Sección de pasos -->
-        <section>
+        <section id="pasos">
             <h2>Pasos para estudiar HTML</h2>
 
             <ol>
@@ -137,7 +137,7 @@
         <section id="multimedia">
             <h2>Contenido multimedia</h2>
 
-            <article>
+            <article id="video_local">
                 <h3>Video local</h3>
 
                 <video src="video/videoEjemploDiagnostica.mp4" controls width="400"
@@ -146,7 +146,7 @@
                 </video>
             </article>
 
-            <article>
+            <article id="audio_local">
                 <h3>Audio local</h3>
 
                 <audio src="audio/audioEjemploA7X.mp3" controls loop preload="metadata">
@@ -154,7 +154,7 @@
                 </audio>
             </article>
 
-            <article>
+            <article id="video_iframe">
                 <h3>Video externo con iframe</h3>
 
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/bdz90srbneU?si=QoyqD5uKp2PkH5kk"
@@ -355,8 +355,11 @@
                 Última actualización:
                 <time datetime="2026-05-28">28 de mayo de 2026</time>.
             </p>
-        </section>
 
+            <p class="nota">
+            Nota importante
+            </p>
+        </section>
     </main>
 
     <!-- Pie de página -->

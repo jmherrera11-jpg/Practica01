@@ -1,1 +1,93 @@
+/*  ==============================
+    Bloque 1: Selector ID
+    Texto de codere, kbd
+    =============================
+*/
 
+.class_btn_nav {
+    border-left: 6px solid #1634db
+}
+
+.class_btn_nav1 {
+    border-left: 6px solid #1b7505
+}
+
+.class_btn_nav2 {
+    border-left: 6px solid #8112db
+}
+
+.class_btn_nav3 {
+    border-left: 6px solid #0d1910
+}
+
+.class_btn_nav4 {
+    border-left: 6px solid #1634db
+}
+
+.class_btn_nav5 {
+    border-left: 6px solid #1634db
+}
+
+#intereses li{
+    background-color: #f4f6f8;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+#pasos li{
+    background-color: #f4f6f8;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+/*  ==============================
+    Bloque 4: Multimedia
+    Aplicar boredes , donde y separacion visual
+    =============================
+*/
+
+#multimedia article{
+    color: #1b7505;
+
+}
+
+#video_local h3{
+    color: #1b7505;
+}
+
+#audio_local h3{
+    color: #1b7505;
+}
+
+#video_iframe h3{
+    color: #1b7505;
+}
+
+main figure{
+    background-color: #f4f6f8;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+}
+
+section form{
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #a8a8a7;
+}
+
+/*  ==============================
+    Bloque 6: Nota importante
+    Aplicar boredes , donde y separacion visual
+    =============================
+*/
+
+.nota {
+    background-color: #f4f6f8;
+    border-left: 5px solid #dba112;
+    padding: 17px;
+    font-size: 27px;
+}
